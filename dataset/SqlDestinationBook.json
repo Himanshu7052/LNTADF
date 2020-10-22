@@ -1,0 +1,16 @@
+{
+	"name": "SqlDestinationBook",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseSource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Book1"
+		}
+	}
+}
